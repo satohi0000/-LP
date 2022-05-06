@@ -1,11 +1,27 @@
-.l-footer {
-  max-width: 600px;
-  margin: 0 auto;
-
-  p {
-    font-size: 12px;
-    font-weight: regular;
-    padding: 20px 0;
-    text-align: center;
+.l-header {
+  &_picture {
+    width: 90vw;
+    max-width: 100%;
+    margin: 4% auto 0 auto;
+    img {
+      width: 100%;
+    }
+  }
+  &_menu {
+    display: flex;
+    width: 90vw;
+    margin: 30px auto 60px;
+    &_title {
+      width: 110px;
+      margin: 0 50px 0 0;
+      img {
+        width: 100%;
+      }
+    }
+    &_1,
+    &_2,
+    &_3 {
+      margin-right: 30px;
+    }
   }
 }
