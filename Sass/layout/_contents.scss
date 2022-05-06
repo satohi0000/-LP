@@ -14,41 +14,21 @@
       }
       &_sentence {
         width: 50%;
-        align-items: center;
-
-        &_1 {
-          padding-left: 7%;
-          width: 50%;
-          margin: auto 0;
-          h2 {
-            font-size: 24px;
-            font-weight: normal;
-          }
-          h3 {
-            font-size: 16px;
-            font-weight: normal;
-          }
-          p {
-            padding-top: 25px;
-            font-size: 16px;
-          }
+        margin: auto 0;
+        h2 {
+          font-size: 24px;
+          font-weight: normal;
+          padding: 0 7%;
         }
-        &_2 {
-          padding-right: 7%;
-          width: 50%;
-          margin: auto 0;
-          h2 {
-            font-size: 24px;
-            font-weight: normal;
-          }
-          h3 {
-            font-size: 16px;
-            font-weight: normal;
-          }
-          p {
-            padding-top: 25px;
-            font-size: 16px;
-          }
+        h3 {
+          font-size: 16px;
+          font-weight: normal;
+          padding: 0 7%;
+        }
+        p {
+          padding-top: 25px;
+          font-size: 16px;
+          padding: 0 7%;
         }
       }
     }
