@@ -7,7 +7,6 @@
       display: flex;
       &_picture {
         width: 50%;
-
         img {
           width: 100%;
         }
@@ -26,9 +25,8 @@
           padding: 0 7%;
         }
         p {
-          padding-top: 25px;
           font-size: 16px;
-          padding: 0 7%;
+          padding: 25px 7%;
         }
       }
     }

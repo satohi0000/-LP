@@ -213,9 +213,8 @@ body {
 }
 
 .l-contents_main_concept_sentence p, .l-contents_main_work_sentence p {
-  padding-top: 25px;
   font-size: 16px;
-  padding: 0 7%;
+  padding: 25px 7%;
 }
 
 .l-contents_page {
